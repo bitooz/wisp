@@ -1,0 +1,50 @@
+{
+ "about": "The player's joints, picked by eye on refs3d/player-human.png (pixels, x right, y down). R is the kid's right (the left of the picture). face: the face's middle and half sizes, and the eyes (for the lids). lantern: its box (all of it rides on the lantern bone) and the handle where it hangs from the left hand, and the flame.",
+ "image": [1024, 1536],
+ "sole": 1476,
+ "x": 497,
+ "torso": {
+  "DEF-hips": 680,
+  "DEF-spine.001": 600,
+  "DEF-spine.002": 520,
+  "DEF-spine.003": 430,
+  "DEF-neck": 305,
+  "DEF-head": 285
+ },
+ "limbs": {
+  "DEF-shoulder.R": [480, 335],
+  "DEF-shoulder.L": [515, 335],
+  "DEF-upper_arm.R": [340, 400],
+  "DEF-upper_arm.L": [655, 400],
+  "DEF-forearm.R": [280, 540],
+  "DEF-forearm.L": [715, 540],
+  "DEF-hand.R": [228, 700],
+  "DEF-hand.L": [760, 710],
+  "tip.R": [198, 815],
+  "tip.L": [790, 775],
+  "DEF-thigh.R": [432, 705],
+  "DEF-thigh.L": [565, 705],
+  "DEF-shin.R": [372, 1005],
+  "DEF-shin.L": [600, 1005],
+  "DEF-foot.R": [347, 1385],
+  "DEF-foot.L": [648, 1385]
+ },
+ "face": {
+  "x": 498,
+  "y": 222,
+  "rx": 76,
+  "ry": 66,
+  "soft": 0.72,
+  "patch": [497, 222, 60, 42]
+ },
+ "eyes": {
+  "R": [458, 192, 19, 13],
+  "L": [533, 190, 19, 13]
+ },
+ "lantern": {
+  "box": [705, 762, 870, 1090],
+  "handle": [778, 748],
+  "flame": [783, 885],
+  "bone": "DEF-hand.L"
+ }
+}

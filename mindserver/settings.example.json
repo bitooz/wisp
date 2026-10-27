@@ -1,0 +1,8 @@
+{
+  "port": 8790,
+  "minds": { "mo": "claude", "bo": "codex", "default": "worker" },
+  "claude": { "model": "claude-sonnet-5-5", "effort": "high" },
+  "codex": { "model": "gpt-6.1-terra", "effort": "high" },
+  "rotate": { "thoughts": 40, "tokens": 150000 },
+  "keepBodies": false
+}

@@ -1,0 +1,110 @@
+{
+ "about": "Bo's joints, picked by eye on refs3d/bo-human.png (pixels, x right, y down). R is Bo's right (the left of the picture). face: the face's middle and half sizes, and the eyes (for the lids).",
+ "image": [
+  1024,
+  1536
+ ],
+ "sole": 1485,
+ "x": 512,
+ "torso": {
+  "DEF-hips": 690,
+  "DEF-spine.001": 600,
+  "DEF-spine.002": 505,
+  "DEF-spine.003": 410,
+  "DEF-neck": 288,
+  "DEF-head": 262
+ },
+ "limbs": {
+  "DEF-shoulder.R": [
+   495,
+   322
+  ],
+  "DEF-shoulder.L": [
+   530,
+   322
+  ],
+  "DEF-upper_arm.R": [
+   372,
+   352
+  ],
+  "DEF-upper_arm.L": [
+   650,
+   352
+  ],
+  "DEF-forearm.R": [
+   288,
+   565
+  ],
+  "DEF-forearm.L": [
+   733,
+   565
+  ],
+  "DEF-hand.R": [
+   238,
+   708
+  ],
+  "DEF-hand.L": [
+   783,
+   708
+  ],
+  "tip.R": [
+   224,
+   838
+  ],
+  "tip.L": [
+   797,
+   838
+  ],
+  "DEF-thigh.R": [
+   447,
+   725
+  ],
+  "DEF-thigh.L": [
+   580,
+   725
+  ],
+  "DEF-shin.R": [
+   398,
+   1020
+  ],
+  "DEF-shin.L": [
+   617,
+   1020
+  ],
+  "DEF-foot.R": [
+   372,
+   1395
+  ],
+  "DEF-foot.L": [
+   652,
+   1395
+  ]
+ },
+ "face": {
+  "x": 510,
+  "y": 212,
+  "rx": 68,
+  "ry": 58,
+  "soft": 0.72,
+  "patch": [
+   508,
+   205,
+   50,
+   36
+  ]
+ },
+ "eyes": {
+  "R": [
+   475,
+   179,
+   15,
+   8
+  ],
+  "L": [
+   540,
+   179,
+   15,
+   8
+  ]
+ }
+}

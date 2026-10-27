@@ -1,0 +1,21 @@
+// Wisp's Worker: Mo's and Bo's minds (the model) and voices (Fish Audio), so no key ships in the game.
+// Secrets (npx wrangler secret put <NAME>): OPENROUTER_API_KEY, FISH_API_KEY and APP_KEY (what the game sends).
+{
+  "$schema": "https://unpkg.com/wrangler@4.151.3/config-schema.json",
+  "name": "wisp",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "observability": { "enabled": true },
+  "vars": {
+    // Hears the player's voice itself (audio in, text out). Reasoning off: minimal thought for over a minute
+    // in Squiggle's test.
+    "MODEL": "qwen/qwen3.8-omni-flash",
+    "PROVIDER": "alibaba",
+    // When Alibaba refuses (it rate-limited 3 of 24 requests in Squiggle's test) or hasn't spoken by HEDGE_MS
+    // (3 s when the player is waiting for an answer).
+    "FALLBACK": "google/gemini-3.6-flash",
+    "HEDGE_MS": "6000",
+    "FISH_MODEL": "s2.1-pro-free",
+    "FISH_LATENCY": "low"
+  }
+}

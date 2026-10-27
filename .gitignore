@@ -1,0 +1,10 @@
+.godot/
+build/
+*.tmp
+.DS_Store
+export_credentials.cfg
+# The Worker's address and the game's key (worker/README): kept out of git
+brain.json
+
+# The OpenRouter key for the Worker (put into it with wrangler secret put): never committed
+.env

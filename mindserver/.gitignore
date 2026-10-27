@@ -1,0 +1,4 @@
+node_modules/
+# Local settings, the server's key, the sessions it keeps, the minds' empty folders, kept bodies
+settings.json
+.state/

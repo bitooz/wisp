@@ -1,0 +1,110 @@
+{
+ "about": "Mo's joints, picked by eye on refs3d/mo-human.png (pixels, x right, y down). R is Mo's right (the left of the picture). face: the face's middle and half sizes, and the eyes (for the lids).",
+ "image": [
+  1024,
+  1536
+ ],
+ "sole": 1485,
+ "x": 497,
+ "torso": {
+  "DEF-hips": 665,
+  "DEF-spine.001": 590,
+  "DEF-spine.002": 510,
+  "DEF-spine.003": 425,
+  "DEF-neck": 310,
+  "DEF-head": 285
+ },
+ "limbs": {
+  "DEF-shoulder.R": [
+   480,
+   335
+  ],
+  "DEF-shoulder.L": [
+   515,
+   335
+  ],
+  "DEF-upper_arm.R": [
+   338,
+   405
+  ],
+  "DEF-upper_arm.L": [
+   657,
+   405
+  ],
+  "DEF-forearm.R": [
+   262,
+   560
+  ],
+  "DEF-forearm.L": [
+   735,
+   560
+  ],
+  "DEF-hand.R": [
+   178,
+   718
+  ],
+  "DEF-hand.L": [
+   812,
+   718
+  ],
+  "tip.R": [
+   132,
+   812
+  ],
+  "tip.L": [
+   850,
+   812
+  ],
+  "DEF-thigh.R": [
+   425,
+   700
+  ],
+  "DEF-thigh.L": [
+   572,
+   700
+  ],
+  "DEF-shin.R": [
+   383,
+   985
+  ],
+  "DEF-shin.L": [
+   597,
+   985
+  ],
+  "DEF-foot.R": [
+   338,
+   1395
+  ],
+  "DEF-foot.L": [
+   655,
+   1395
+  ]
+ },
+ "face": {
+  "x": 495,
+  "y": 218,
+  "rx": 82,
+  "ry": 70,
+  "soft": 0.72,
+  "patch": [
+   493,
+   220,
+   62,
+   40
+  ]
+ },
+ "eyes": {
+  "R": [
+   455,
+   192,
+   19,
+   14
+  ],
+  "L": [
+   531,
+   191,
+   19,
+   14
+  ]
+ }
+}

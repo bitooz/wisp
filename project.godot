@@ -1,0 +1,56 @@
+; Engine configuration file.
+
+config_version=5
+
+[application]
+
+config/name="Wisp"
+config/description="You are a little light. Mo and Bo follow you, and know only what your light has shown them."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
+config/icon="res://icon.png"
+boot_splash/bg_color=Color(0.6235, 0.8235, 1, 1)
+boot_splash/show_image=false
+
+[audio]
+
+driver/enable_input=false
+driver/enable_input.android=true
+
+[display]
+
+window/size/viewport_width=844
+window/size/viewport_height=390
+window/size/window_width_override=1266
+window/size/window_height_override=585
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=4
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="mobile"
+rendering_device/fallback_to_opengl3=true
+lights_and_shadows/directional_shadow/size=2048
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=2
+textures/vram_compression/import_etc2_astc=true
+
+[shader_globals]
+
+hemi_sky={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+hemi_ground={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/terrain_3d/plugin.cfg")

@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/island.gd" id="1"]
+
+[node name="Island" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+light_color = Color(1, 0.945, 0.863, 1)
+light_energy = 0.764
+shadow_enabled = true
+shadow_bias = 0.02
+shadow_normal_bias = 1.0
+directional_shadow_mode = 0
+directional_shadow_max_distance = 30.0
